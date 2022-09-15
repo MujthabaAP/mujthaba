@@ -1,0 +1,257 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css");
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    /* font-size: 15px; */
+}
+
+.h-image-1 {
+    display: none;
+}
+
+div.tooltip-inner {
+    border-radius: 0px;
+}
+
+div.arrow::before {
+    left: 9px !important;
+}
+
+div.progress {
+    height: 5px;
+    border-radius: 0px;
+}
+
+.w-85 {
+    width: 85% !important;
+}
+
+.common-heading {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.common-para-center-aligned {
+    text-align: center;
+}
+
+.common-para-left-aligned {
+    text-align: left;
+}
+
+.common-container {
+    padding: 36px 10px 20px 10px;
+}
+
+.site-message-container {
+    background-color: #6360fc;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.site-message-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-message-container p {
+    margin: 0px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.site-message-container:hover {
+    background-color: #0a06b7;
+    font-weight: 700;
+}
+
+header {
+    padding: 156px 0 100px;
+}
+
+section {
+    padding: 150px 0;
+}
+
+.navbar-container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.navbar-container-social {
+    margin-left: auto;
+}
+
+.nav-item-text {
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.social-icons i {
+    color: #b5b3b9 !important;
+    background-color: white;
+    /* border-radius: 25px; */
+    /* border: 1px solid #b6b5ba; */
+}
+
+.social-icon {
+    padding: 5px !important;
+    font-size: 12px;
+}
+
+.social-icons i.social-icon:hover {
+    color: white !important;
+    background-color: #6360fc;
+    /* border: 1px solid #6360fc; */
+}
+
+.login-button {
+    color: #6360fc;
+    ;
+    background-color: white;
+    border: 1px solid #6360fc;
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+.button-anchor {
+    float: right;
+}
+
+.login-button:hover {
+    color: white;
+    background-color: #6360fc;
+    border: 1px solid #6360fc;
+}
+
+.create-button {
+    display: none;
+}
+
+.button-container {
+    width: 20%;
+}
+
+.brand-text {
+    font-weight: 700;
+    color: white;
+    background-color: #6360fc;
+    padding: 10px;
+}
+
+.progress {
+    position: relative !important;
+}
+
+
+
+.about-container {
+    padding: 80px 50px 0px 50px;
+}
+
+.welcome-msg {
+    margin: 0px;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.about-btn-container {
+    padding-top: 18px;
+}
+
+.my-work-btn,
+.hire-me-btn {
+    color: white;
+    font-weight: 600;
+    background-color: #6360fc;
+    border: 1px solid #6360fc;
+    padding: 8px 23px 8px 23px;
+    width: 130px;
+    font-size: 15px;
+}
+
+.my-work-btn:hover,
+.hire-me-btn:hover{
+    border: 1px solid !important;
+}
+
+.welcome-msg,
+.designation {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.designation {
+    padding-top: 3px;
+    padding-bottom: 18px;
+}
+
+.user-image-container {
+    padding: 30px;
+}
+
+.user-image {
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+@media (max-width:500px) {
+    .about-container {
+        padding: 80px 25px 30px 25px;
+    }
+
+    .hire-me-btn {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    .my-work-btn {
+        margin-right: 30px;
+        margin-bottom: 15px;
+    }
+
+    .user-image-container {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width:991px) {
+    .social-icons {
+        display: none;
+    }
+
+    .nav-item-text {
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .button-container {
+        width: 100%;
+        padding-left: 41px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+
+    .create-button {
+        display: inline;
+    }
+
+    .button-anchor {
+        float: left;
+    }
+    .h-image-2 {
+        display: none;
+    }
+    .h-image-1 {
+        display: block;
+    }
+}
