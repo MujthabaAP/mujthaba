@@ -9,8 +9,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/f0adc07532.js"></script>
-    <link rel="stylesheet" href="./css/styles.css?v3">
+    <link rel="stylesheet" href="./css/styles.css?v4">
+    <link rel="stylesheet" href="./css/circle.css?v2">
 </head>
 
 <body>
@@ -93,10 +95,311 @@
             <div class="col-md-1"></div>
         </div>
 
-        <!-- <app-exp-and-skills></app-exp-and-skills> -->
-    </div>
+        <!-- skills and experience -->
+        <div class="row" id="about-container">
+            <div class="col-md-6" data-aos="fade-up">
+                <div class="skills-exp-container">
+                    <h3 class="skills-exp-heading">Professional Skills</h3>
+                    <p class="skill-description">In Aug 2018, I began my software engineering career as a Junior
+                        Software Engineer for AlignMinds Technologies.
+                        In my role as a Senior Software Engineer, I have been tasked
+                        with developing web applications such as front-end user interface, database management,
+                        liaising with customers and the internal team.
+                    </p>
 
-    <!-- 
+
+
+                    <!-- <div class="row">
+                        <div class="col">
+                            <p class="skill-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Diam vulputate ut pharetra sit amet. In egestas erat
+                                imperdiet
+                                sed euismod nisi porta.
+                            </p>
+                        </div>
+                    </div> -->
+
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="work-skill-head">Technical Skills</h5>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>HTML5</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success w-75" role="progressbar"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="75%" title="75">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>CSS3</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info w-80" role="progressbar" aria-valuenow="00"
+                                                aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip"
+                                                data-placement="top" data-offset="80%" title="80">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>.NET Core Web API</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning w-50" role="progressbar"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="50%" title="50">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>JSON</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger w-80" role="progressbar"
+                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="80%" title="80">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>Yii-2</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning w-75" role="progressbar"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="75%" title="85">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>PostgreSQL</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger w-80" role="progressbar"
+                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="80%" title="80">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>Angular</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success w-75" role="progressbar"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="75%" title="75">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>NodeJS</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info w-80" role="progressbar" aria-valuenow="00"
+                                                aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip"
+                                                data-placement="top" data-offset="80%" title="80">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>PHP</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-secondary w-75" role="progressbar"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="75%" title="75">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>JQuery</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip"
+                                                data-placement="top" data-offset="75%" title="75">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>Bootstrap</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success w-75" role="progressbar"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="75%" title="75">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>JavaScript</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-dark w-75" role="progressbar" aria-valuenow="75"
+                                                aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip"
+                                                data-placement="top" data-offset="75%" title="85">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>MySQL</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger w-85" role="progressbar"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="85%" title="85">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barWrapper">
+                                        <span class="progressText"><B>Ajax</B></span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning w-85" role="progressbar"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                                                data-toggle="tooltip" data-placement="top" data-offset="85%" title="85">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- progress bar section -->
+                    <div class="row">
+                        <h5 class="work-skill-head other-skill-h">Other Skills</h5>
+                        <div class="col">
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-item">
+                                    <div class="c100 p85 small">
+                                        <span>85%</span>
+                                        <div class="slice">
+                                            <div class="bar"></div>
+                                            <div class="fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="tech-name">Git (GitLab, BitBucket & GitHub)</h6>
+                        </div>
+
+                        <div class="col">
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-item">
+                                    <div class="c100 p60 small green">
+                                        <span>60%</span>
+                                        <div class="slice">
+                                            <div class="bar"></div>
+                                            <div class="fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="tech-name">Docker</h6>
+                        </div>
+
+                        <div class="col">
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-item">
+                                    <div class="c100 p80 small orange">
+                                        <span>80%</span>
+                                        <div class="slice">
+                                            <div class="bar"></div>
+                                            <div class="fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="tech-name">Jira & Asana</h6>
+                        </div>
+
+                        <div class="col">
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-item">
+                                    <div class="c100 p90 small pink">
+                                        <span>90%</span>
+                                        <div class="slice">
+                                            <div class="bar"></div>
+                                            <div class="fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="tech-name">Postman</h6>
+                        </div>
+                    </div>
+                    <!-- /progress bar section -->
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up">
+                <div class="skills-exp-container">
+                    <h3 class="skills-exp-heading">My Experience</h3>
+
+                    <section class="experience pt-100 pb-100" id="experience">
+                        <!-- <div class="container"> -->
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <ul class="timeline-list">
+                                    <!-- Single Experience -->
+                                    <li>
+                                        <div class="timeline_content">
+                                            <span>2021 - 2022</span>
+                                            <p class="designation">Senior Software Engineer</p>
+                                            <a href="https://alignminds.com/">
+                                                <div class="exp-co-container">
+                                                    <img src="https://alignminds.com/wp-content/uploads/2022/03/alignminds_logo.svg"
+                                                        class="exp-co-logo" alt="AlignMinds Technologies pvt ltd.">
+                                                    <span>AlignMinds Technologies pvt ltd.</span>
+                                                </div>
+                                            </a>
+
+                                            <p class="company-description">
+                                                Design, Develop, Test, Deploy, Maintain, and Improve software and new
+                                                user-facing features.
+                                                Write client-side code for web-based applications, create fast,
+                                                easy-to-use, high-volume production applications, and develop prototypes
+                                                quickly.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <!-- Single Experience -->
+                                    <!-- <li>
+                                        <div class="timeline_content">
+                                            <span>2021</span>
+                                            <p class="designation">Freelance Software Engineer</p>
+                                            <p class="company-description">Worked on a freelance project and built my
+                                                own product DocQ, online booking application for doctor's consultation.
+                                            </p>
+                                        </div>
+                                    </li> -->
+                                    <li>
+                                        <div class="timeline_content">
+                                            <span>2018 - 2021</span>
+                                            <p class="designation">Junior Software Engineer</p>
+                                            <a href="https://alignminds.com/">
+                                                <div class="exp-co-container">
+                                                    <img src="https://alignminds.com/wp-content/uploads/2022/03/alignminds_logo.svg"
+                                                        class="exp-co-logo" alt="AlignMinds Technologies pvt ltd.">
+                                                    <span>AlignMinds Technologies pvt ltd.</span>
+                                                </div>
+                                            </a>
+                                            <p class="company-description">Working closely with developers to improve
+                                                product’s functionality, Attending developer
+                                                meetings, Participating in code reviews and Continually improving coding
+                                                skills.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 
     <div class="consult-container" data-aos="fade-up">
             <div class="container">
                     <app-consult></app-consult>
@@ -127,14 +430,23 @@
                             <app-my-blog></app-my-blog>
                     </div>
             </div>
-    </div>
-    <div class="footer-container">
-            <app-footer></app-footer>
-    </div>
-    <app-create-portfolio></app-create-portfolio> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+    </div>-->
+        <div class="footer-container">
+            <!-- <app-footer></app-footer> -->
+            <hr>
+            <div class="social-icons-footer navbar-container-social">
+                <a href="https://stackoverflow.com/users/10040757"><i class="social-icon fab fa-stack-overflow"></i></a>
+                <a href="https://github.com/MujthabaAP"><i class="social-icon fab fa-github"></i></a>
+                <a href="https://www.instagram.com/mujthaba.ap"><i class="social-icon fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mujthaba-a-p-87230b104/"><i
+                        class="social-icon fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <!-- <app-create-portfolio></app-create-portfolio>  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+        <script src="./js/portfolio-scripts.js"></script>
 </body>
 
 </html>
