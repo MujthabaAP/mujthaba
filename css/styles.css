@@ -536,3 +536,110 @@ a:active {
 .read-more-2 {
     color: #008000;
 }
+
+.consult-section {
+    padding: 50px 16px;
+}
+
+.consult-head {
+    font-weight: 700;
+}
+
+.consult-head {}
+
+.consult-description {
+    padding-top: 5px;
+    margin: 0px;
+}
+
+.consult-mail-input {
+    padding: 8px 22px;
+    border-radius: 25px;
+    border: 1px solid #efefef;
+    float: left;
+    width: 100%;
+    outline: none;
+}
+
+.consult-mail-button {
+    padding: 8px 22px;
+    border-radius: 25px;
+    border: 1px solid #efefef;
+    background-color: #6360fc;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+    position: absolute;
+    margin-left: -112px;
+    outline: none;
+}
+
+.input-container {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding-top: 33px;
+}
+
+.consult-container {
+    background-image: linear-gradient(to right, #fdf9f8, #f1f9fc);
+}
+
+@media screen and (max-width: 768px) {
+    .email-container {
+        padding-top: 0px;
+    }
+
+    .consult-section {
+        padding: 16px 0px;
+    }
+
+    .consult-mail-input {
+        margin-bottom: 35px;
+    }
+
+    .consult-head {
+        padding-top: 10px;
+    }
+
+    .input-container {
+        width: 70%;
+        padding-top: 0px;
+    }
+}
+
+.service-container {
+    text-align: center;
+    padding: 12px;
+}
+
+.service-head {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.service-description {}
+
+.service-container:hover .service-head,
+.service-container:hover .service-domain {
+    color: #6260fd;
+}
+
+.service-container:hover {
+    -webkit-box-shadow: 0px 16px 26px 0px rgba(148, 135, 148, 0.25);
+    -moz-box-shadow: 0px 16px 26px 0px rgba(148, 135, 148, 0.25);
+    box-shadow: 0px 16px 26px 0px rgba(148, 135, 148, 0.25);
+}
+
+.service-domain {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+/* .modal-dialog {
+    max-width: 90%;
+}
+.table-responsive {
+    overflow-x: auto;
+} */
